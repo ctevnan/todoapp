@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="todoapp">
   <head>
     <meta charset="utf-8">
     <title>ToDo App</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.css">
   </head>
 <body>
-  <div class="row">
-    <table>
-      <tr>
-        <td>
+  <div class="row" ng-controller="TodoController">
+    <div class="medium-6 columns">
+      <table>
+        <tr>
+          <td>
 
-        </td>
-        <td>
+          </td>
+          <td>
 
-        </td>
-      </tr>
-    </table>
-
-  </div>      
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>        
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.js"></script>
   <script type="text/javascript" src="todo.js"></script>
 </body>
