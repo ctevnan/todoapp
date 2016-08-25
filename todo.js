@@ -1,4 +1,4 @@
 angular.module('todoapp', [])
-.controller('TodoController', function(){
-
+.controller('TodoController', function($scope){
+  $scope.todos = [];
 });
