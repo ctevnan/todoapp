@@ -1,4 +1,4 @@
-angular.module('todoapp', [])
+angular.module('todoapp') //singleton- exists once
 .controller('TodoController', function($scope){
   $scope.todos = [];
 
