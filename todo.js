@@ -1,5 +1,5 @@
-angular.module('todoapp') //singleton- exists once
-.controller('TodoController', function($scope){
+angular.module('todoApp') //singleton- exists once
+.controller('TodoController', function($scope) {
   $scope.todos = [];
 
   $scope.addTodo = function() {
